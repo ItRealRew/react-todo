@@ -14,10 +14,10 @@ const Header = (props: { onDataChange: (arg0: string) => void; }) => {
 
   return (
     <div>
-      <div>TODO List</div>
+      <h1>TODO List</h1>
       <div className="header-container">
-        <input type="text" value={value} onChange={(e) => setValue(e.target.value)}></input>
-        <a onClick={add} className="header-btn-add">Add</a>
+        <input className="header-input" type="text" value={value} onChange={(e) => setValue(e.target.value)}></input>
+        <a onClick={add} className="header-btn-add btn">Add</a>
       </div>
     </div>
   );
