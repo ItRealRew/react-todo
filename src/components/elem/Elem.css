@@ -1,0 +1,27 @@
+.elem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.elem-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.elem-btn-done {
+  background-color: #ba72ff;
+}
+
+.elem-btn-del {
+  background-color: #ff7272;
+}
+
+.elem-btn-all {
+  padding: 10px;
+  border-radius: 10px;
+}
